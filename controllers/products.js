@@ -1,9 +1,9 @@
 const getAllProducts = async (req, res) => {
-    res.status(200).json({ message: 'Get all products' });
-}
+  res.status(200).json({ msg: "All products fetched successfully" });
+};
 
 const getAllProductsTesting = async (req, res) => {
-    res.status(200).json({ message: 'Get all products testing route' });
-}
+  res.status(200).json({ msg: "Products testing route working" });
+};
 
 module.exports = { getAllProducts, getAllProductsTesting };
